@@ -4,7 +4,7 @@
 
 Necesitamos crear un entorno virtual para encapsular todas las librerias que vamos a usar para nuestro sitio.
 
-```
+```bash
 mkdir primer_proyecto
 cd primer_proyecto
 ```
