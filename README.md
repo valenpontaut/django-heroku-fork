@@ -1,4 +1,4 @@
-# django-heroku
+# DJANGO-HEROKU
 
 ## Creamos un entorno virtual
 It’s a good habit to start every project by creating an isolated virtual environment that won’t be shared with other projects. This can keep your dependencies organized and help avoid package version conflicts. Some dependency managers and packaging tools like Pipenv or poetry automatically create and manage virtual environments for you to follow best practices. Many IDEs like PyCharm do this by default, too, when you’re starting a new project.
@@ -48,3 +48,23 @@ Por ultimo cambiamos en `settings.py`
 ALLOWED_HOSTS = ['*']
 ```
 
+Agregamos 3 archivos.
+
+## `requirements.txt`
+
+```
+python3 -m pip freeze > requirements.txt
+```
+## `Procfile`
+
+```
+web: gunicorn primer_proyecto.wsgi --log-file -
+```
+
+## runtime.txt
+
+Debemos agregar la version de python de nuestro venv, podemos saber cual es usando `python3 --version`.
+
+```
+python-3.8.10
+```
