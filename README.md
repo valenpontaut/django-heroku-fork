@@ -34,7 +34,6 @@ Instalamos django y gunicorn todas las librerias que vayamos a necesitar en nues
 ```
 pip3 install django
 pip3 install gunicorn
-python3 -m pip freeze > requirements.txt
 ```
 
 Por ultimo cambiamos en `settings.py`
