@@ -91,5 +91,4 @@ primer_proyecto/
 ├─ requirements.txt
 ├─ Procfile
 ├─ runtime.txt
-
 ```
