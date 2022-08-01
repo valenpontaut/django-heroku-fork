@@ -32,9 +32,19 @@ Activamos el enviromente:
 source venv/bin/activate
 ```
 
-Instalamos django y todas las librerias que vayamos a necesitar en nuestro proyecto.
+Instalamos django y gunicorn todas las librerias que vayamos a necesitar en nuestro proyecto.
+
 
 ```
+pip3 install django
+pip3 install gunicorn
 python3 -m pip freeze > requirements.txt
+```
+
+Por ultimo cambiamos en `settings.py`
+
+```
+##\primer_proyecto\settings.py
+ALLOWED_HOSTS = ['*']
 ```
 
