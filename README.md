@@ -87,6 +87,7 @@ Finalmente deberiamos tener la siguiente estructura:
 
 ```
 primer_proyecto/
+├─ venv
 ├─ manage.py
 ├─ app_prueba/
 │  ├─ __init__.py
