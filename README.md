@@ -19,8 +19,7 @@ Luego vemos lo siguiente:
 
 ```
 primer_proyecto/
-│
-└── venv/
+├─ venv
 ```
 
 Activamos el enviromente:
