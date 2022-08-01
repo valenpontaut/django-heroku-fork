@@ -52,10 +52,24 @@ ALLOWED_HOSTS = ['*']
 
 #### `requirements.txt`
 
+Usamos el siguiente comando:
+
 ```
 python3 -m pip freeze > requirements.txt
 ```
+
+Nos deberia quedar algo similar:
+
+```
+asgiref==3.5.2
+backports.zoneinfo==0.2.1
+Django==4.0.6
+gunicorn==20.1.0
+sqlparse==0.4.2
+``` 
 #### `Procfile`
+
+Ingresamos la siguiente linea:
 
 ```
 web: gunicorn primer_proyecto.wsgi --log-file -
