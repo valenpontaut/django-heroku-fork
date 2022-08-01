@@ -48,7 +48,7 @@ Por ultimo cambiamos en `settings.py`
 ALLOWED_HOSTS = ['*']
 ```
 
-Agregamos 3 archivos:
+## Agregamos 3 archivos:
 
 ### `requirements.txt`
 
@@ -67,4 +67,29 @@ Debemos agregar la version de python de nuestro venv, podemos saber cual es usan
 
 ```
 python-3.8.10
+```
+
+Finalmente deberiamos tener la siguiente estructura:
+
+```
+primer_proyecto/
+├─ manage.py
+├─ app_prueba/
+│  ├─ __init__.py
+│  ├─ views.py
+│  ├─ tests.py
+│  ├─ models.py
+│  ├─ apps.py
+│  ├─ admin.py
+│  ├─ migrations/
+├─ primer_proyecto/
+│  ├─ __init__.py
+│  ├─ asgi.py
+│  ├─ settings.py
+│  ├─ urls.py
+│  ├─ wsgi.py
+├─ requirements.txt
+├─ Procfile
+├─ runtime.txt
+
 ```
