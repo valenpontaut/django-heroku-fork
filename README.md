@@ -50,18 +50,18 @@ ALLOWED_HOSTS = ['*']
 
 ## Agregamos 3 archivos:
 
-### `requirements.txt`
+#### `requirements.txt`
 
 ```
 python3 -m pip freeze > requirements.txt
 ```
-### `Procfile`
+#### `Procfile`
 
 ```
 web: gunicorn primer_proyecto.wsgi --log-file -
 ```
 
-### `runtime.txt`
+#### `runtime.txt`
 
 Debemos agregar la version de python de nuestro venv, podemos saber cual es usando `python3 --version`.
 
