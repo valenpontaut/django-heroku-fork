@@ -43,8 +43,8 @@ python3 -m pip freeze > requirements.txt
 
 Por ultimo cambiamos en `settings.py`
 
-```
-##\primer_proyecto\settings.py
+```python
+##primer_proyecto\settings.py
 ALLOWED_HOSTS = ['*']
 ```
 
